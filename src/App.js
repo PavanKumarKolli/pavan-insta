@@ -15,6 +15,10 @@ function App() {
       <Routers>
         <div className="mainnn">
           <Routes>
+      <Route
+              path="/"
+              element={UUU ? <Navigate to="/home" /> : <Navigate to="/login" />}
+            />
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
