@@ -1,0 +1,151 @@
+/* Login.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-form-controller {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-form-controller h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.login-form-controller input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-form-controller button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3897f0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form-controller span {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+}
+
+.login-form-controller div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form-controller svg {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.login-form-controller .login-with-facebook {
+  font-weight: bold;
+}
+
+.get-app-container {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.get-app-container span {
+  color: #555;
+}
+
+.get-app-container img {
+  width: 120px;
+  margin: 10px;
+}
+.login-donthaveaccount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-mainpage-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.login-sideimg-container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.l-m-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 70%;
+  font-family: monospace;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding: 12px;
+  /* background-color: red; */
+}
+.footer-main-div span:hover {
+  border-bottom: 1px solid grey;
+  transition-property: width 2s;
+  transition-duration: 5s;
+  width: auto;
+}
+.footer-main-div,
+select {
+  font-family: monospace;
+  font-size: 12px;
+  font-style: italic;
+}
+.hr {
+  width: 100%;
+}
+.hr hr {
+  width: 28%;
+}

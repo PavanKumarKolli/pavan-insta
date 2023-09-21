@@ -1,0 +1,86 @@
+/* Signup.css */
+.signup-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .signup-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .signup-form h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form span {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .signup-form hr {
+    border: 0.5px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-form .login-with-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .get-app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .get-app-container span {
+    color: #555;
+  }
+  
+  .get-app-container img {
+    width: 150px;
+    margin: 10px;
+  }
+  
